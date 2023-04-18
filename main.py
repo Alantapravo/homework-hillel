@@ -1,1 +1,6 @@
-print("Hello World")
+a = int(input("Введіть значення сторони a = "))
+b = int(input("Введіть значення сторони b = "))
+c = int(input("Введіть значення сторони c = "))
+p = (a+b+c)/2
+s = (p*(p-a)*(p-b)*(p-c))**0.5
+print(s)
